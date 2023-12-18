@@ -1,5 +1,21 @@
 # adipose_pipeline
-Pipeline for adipose tissues segmentation from dixon body scans
+This repository contains a Nipype wrapper for the FatSegNet tool available at [/Deep-MI/FatSegNet](https://github.com/Deep-MI/FatSegNet). FatSegNet is a automated tool for segmenting visceral and subcuteneous adipose tissue on fat images from a two-point Dixon sequence. 
+
+If you use this wrapper please cite:
+
+Estrada, Santiago, et al. "FatSegNet: A fully automated deep learning pipeline for adipose tissue segmentation on abdominal dixon MRI." Magnetic resonance in medicine 83.4 (2020): 1471-1483. [https:// doi.org/10.1002/mrm.28022](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.28022)
+```
+@article{estrada2020fatsegnet,
+  title={FatSegNet: A fully automated deep learning pipeline for adipose tissue segmentation on abdominal dixon MRI},
+  author={Estrada, Santiago and Lu, Ran and Conjeti, Sailesh and Orozco-Ruiz, Ximena and Panos-Willuhn, Joana and Breteler, Monique MB and Reuter, Martin},
+  journal={Magnetic resonance in medicine},
+  volume={83},
+  number={4},
+  pages={1471--1483},
+  year={2020},
+  publisher={Wiley Online Library}
+}
+```
 
 ## Build docker image
 
